@@ -27,9 +27,11 @@ adding into main composer.json
 },
 ```
 
-add following command:
+in terminal, execute following command:
 ```sh
 composer dump-autoload
+```
+```sh
 php artisan vendor:publish
 ```
 
@@ -51,7 +53,7 @@ Zoor\GridModel\GridModelServiceProvider::class,
  
  ```
  
-views template
+view template
 ```sh
 
 Zoor\GridModel\GridModel::table([
