@@ -15,6 +15,19 @@ install via composer
  composer require "zoor/gridmodel @dev"
 ```
 
+adding into main composer.json
+```sh
+"autoload": {
+    "classmap": [
+        "database"
+    ],
+    "psr-4": {
+        "App\\": "app/",
+        "Zoor\\GridModel\\": "vendor/zoor/gridmodel/src"
+    }
+},
+```
+
 insert this line into array providers on config/app.php
 
 ```sh
