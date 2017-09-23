@@ -6,11 +6,10 @@ Laravel 5.4, Grid, Grid Model, Grid Table, Populate Master Data, Bootstrap Css
 - filter perpage
 - filter column with dropdown
 - search by column you defined
-- bulk update
-- bulk delete
+- bulk update (next)
+- bulk delete (next)
 
 install via composer
-
 ```sh
  composer require "zoor/gridmodel @dev"
 ```
@@ -28,8 +27,13 @@ adding into main composer.json
 },
 ```
 
-insert this line into array providers on config/app.php
+add following command:
+```sh
+composer dump-autoload
+php artisan vendor:publish
+```
 
+insert this line into array providers on config/app.php
 ```sh
 Zoor\GridModel\GridModelServiceProvider::class,
 ```
