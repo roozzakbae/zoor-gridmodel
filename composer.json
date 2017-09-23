@@ -2,6 +2,7 @@
     "name": "zoor/gridmodel",
     "description": "Grid Model to show master data",
     "minimum-stability": "dev",
+    "version": "1.0.0",
     "keywords": ["framework", "laravel 5.4", "populate master data", "grid model", "grid", "grid table"],
     "license": "MIT",
     "require": {
