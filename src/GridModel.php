@@ -98,6 +98,12 @@ class GridModel
         $end = count($models)+($start-1);
 
         ?>
+        <script>$('.grid-filter').on('change', function(){
+        //var data = $(".select2 option:selected").val();
+        //$(this).val(data);
+        console.log($(this).val());
+        $(this).closest('form').submit();
+            })</script>
         <div class="form-inline">
             <div class="row">
                 <div class="col-md-2">
