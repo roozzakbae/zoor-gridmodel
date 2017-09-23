@@ -160,7 +160,7 @@ class GridModel
         <div class="row">
             <div class="col-xs-4">
 
-                <form class="bulk_grid_form form-inline" action="<?= route('gridmodel.bulk-action') ?>" method="post">
+                <form class="bulk_grid_form form-inline" action="<?= '';//route('gridmodel.bulk-action') ?>" method="post">
                     <select name="bulk_grid" class="form-control bulk-grid">
                         <option value=""><?= trans('admin.select') ?></option>
                         <option value="delete"><?= trans('admin.delete') ?></option>
