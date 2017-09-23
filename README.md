@@ -12,7 +12,7 @@ Laravel 5.4, Grid, Grid Model, Grid Table, Populate Master Data, Bootstrap Css
 install via composer
 
 ```sh
- composer require "zoor/gridmodel":"*"
+ composer require "zoor/gridmodel @dev"
 ```
 
 insert this line into array providers on config/app.php
